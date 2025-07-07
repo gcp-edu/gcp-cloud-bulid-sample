@@ -5,4 +5,7 @@ steps:
     args: ['push', 'gcr.io/$PROJECT_ID/demo-app']
 images:
   - 'gcr.io/gcp-study-463918/demo-app'
+options:
+  logging: CLOUD_LOGGING_ONLY
+
 
